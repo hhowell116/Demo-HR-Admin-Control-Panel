@@ -1,0 +1,12 @@
+{
+  "name": "rco-hr-recognition-demo",
+  "private": true,
+  "workspaces": [
+    "packages/shared",
+    "packages/admin"
+  ],
+  "scripts": {
+    "dev:admin": "npm run dev --workspace=packages/admin",
+    "build:admin": "npm run build --workspace=packages/admin"
+  }
+}
