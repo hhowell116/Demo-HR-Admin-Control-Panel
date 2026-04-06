@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
-  base: '/Live-HR-Admin-Control-Panel/',
+  base: '/Demo-HR-Admin-Control-Panel/',
   plugins: [react()],
   resolve: {
     alias: {

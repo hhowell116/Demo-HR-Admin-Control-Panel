@@ -146,7 +146,7 @@ function AppRoutes() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/Live-HR-Admin-Control-Panel">
+    <BrowserRouter basename="/Demo-HR-Admin-Control-Panel">
       <DemoBanner />
       <AuthProvider>
         <AppRoutes />
