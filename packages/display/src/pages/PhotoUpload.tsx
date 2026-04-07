@@ -351,7 +351,7 @@ export function PhotoUpload() {
       </div>
 
       <p style={{ color: '#bd9979', fontSize: 11, marginTop: 24, textAlign: 'center' }}>
-        Rowe Casa Organics &mdash; Employee Photo Submission
+        Acme Co &mdash; Employee Photo Submission
       </p>
     </div>
   );

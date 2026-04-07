@@ -22,7 +22,7 @@ const AuthContext = createContext<AuthContextType | null>(null);
 
 const MOCK_USER: MockUser = {
   uid: 'demo',
-  email: 'admin@rowecasaorganics.com',
+  email: 'admin@demo.com',
   displayName: 'Demo Admin',
 };
 

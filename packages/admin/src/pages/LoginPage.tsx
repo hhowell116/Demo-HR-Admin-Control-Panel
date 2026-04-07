@@ -11,7 +11,7 @@ export function LoginPage() {
             <span className="text-white text-xl font-bold font-serif">RC</span>
           </div>
           <h1 className="text-2xl font-serif font-bold text-brand-deep-brown">
-            Rowe Casa Organics
+            Acme Co
           </h1>
           <p className="text-sm text-brand-taupe mt-1">HR TV Admin</p>
         </div>
@@ -40,7 +40,7 @@ export function LoginPage() {
           </button>
 
           <p className="text-[11px] text-center text-brand-taupe mt-4">
-            Restricted to @rowecasaorganics.com accounts
+            Restricted to authorized accounts
           </p>
         </div>
       </div>

@@ -18,7 +18,7 @@ const ROLE_LABELS: Record<string, string> = {
 const DEMO_USERS: AppUser[] = [
   {
     uid: 'demo',
-    email: 'admin@rowecasaorganics.com',
+    email: 'admin@demo.com',
     displayName: 'Demo Admin',
     role: 'it_admin',
     createdAt: '2024-01-01' as any,
@@ -27,8 +27,8 @@ const DEMO_USERS: AppUser[] = [
   },
   {
     uid: 'user-2',
-    email: 'celina.bianco@rowecasaorganics.com',
-    displayName: 'Celina Bianco',
+    email: 'hr.manager@demo.com',
+    displayName: 'HR Manager',
     role: 'hr',
     createdAt: '2024-02-15' as any,
     lastLogin: '2026-04-05' as any,
@@ -36,7 +36,7 @@ const DEMO_USERS: AppUser[] = [
   },
   {
     uid: 'user-3',
-    email: 'exec@rowecasaorganics.com',
+    email: 'exec@demo.com',
     displayName: 'Executive User',
     role: 'csuite',
     createdAt: '2024-03-01' as any,

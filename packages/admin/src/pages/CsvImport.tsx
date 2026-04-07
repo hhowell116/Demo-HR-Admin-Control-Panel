@@ -21,7 +21,7 @@ const TEMPLATE_HEADERS = [
 ];
 
 const EXAMPLE_ROW = [
-  'Jane', 'Smith', 'jane@rowecasaorganics.com', 'Production', 'Production Specialist',
+  'Jane', 'Smith', 'jane.smith@demo.com', 'Production', 'Production Specialist',
   'EMP-001', '4', '15', '2023-06-01', '1234', 'Texarkana',
 ];
 

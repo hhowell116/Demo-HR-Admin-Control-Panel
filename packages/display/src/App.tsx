@@ -200,7 +200,7 @@ function SlideRotator({
     return <div className="idle-screen"><img src="/logo.png" alt="RCO" /><p>Loading...</p></div>;
   }
   if (!config.isLive || slides.length === 0) {
-    return <div className="idle-screen"><img src="/logo.png" alt="RCO" /><p>Rowe Casa Organics</p></div>;
+    return <div className="idle-screen"><img src="/logo.png" alt="Demo" /><p>Acme Co</p></div>;
   }
 
   return (

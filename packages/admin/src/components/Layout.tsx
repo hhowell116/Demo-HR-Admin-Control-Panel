@@ -78,7 +78,7 @@ export function Layout() {
               <span className="text-white text-xs font-bold">RC</span>
             </div>
             <div>
-              <h1 className="text-sm font-semibold text-brand-deep-brown">Rowe Casa</h1>
+              <h1 className="text-sm font-semibold text-brand-deep-brown">Acme Co</h1>
               <p className="text-[11px] text-brand-taupe">HR TV Admin</p>
             </div>
           </div>

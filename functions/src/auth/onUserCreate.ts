@@ -5,7 +5,7 @@ import { initializeApp, getApps } from 'firebase-admin/app';
 if (getApps().length === 0) initializeApp();
 const db = getFirestore();
 
-const ALLOWED_DOMAIN = 'rowecasaorganics.com';
+const ALLOWED_DOMAIN = 'demo.com';
 
 export const onUserCreate = functionsV1.auth.user().onCreate(async (user: functionsV1.auth.UserRecord) => {
   const email = user.email || '';
