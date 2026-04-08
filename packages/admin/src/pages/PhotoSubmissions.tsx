@@ -3,7 +3,8 @@ import { QRCodeSVG } from 'qrcode.react';
 import { Check, X, Trash2, QrCode, Clock, CheckCircle, XCircle } from 'lucide-react';
 import type { PhotoSubmission } from '@rco/shared';
 
-const UPLOAD_URL = 'https://rco-hr-display.web.app/upload';
+// Demo mode: photo upload URL (display page not available in demo)
+const UPLOAD_URL = import.meta.env.BASE_URL + 'display/index.html';
 
 type Tab = 'pending' | 'reviewed' | 'qr';
 

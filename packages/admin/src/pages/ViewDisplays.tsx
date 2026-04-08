@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import { Monitor, ExternalLink, Maximize, Trophy, Layers, X } from 'lucide-react';
 
-const DISPLAY_BASE = 'https://rco-hr-display.web.app';
+// Demo mode: point to static demo display pages instead of production Firebase
+const DISPLAY_BASE = import.meta.env.BASE_URL + 'display';
 
 const DISPLAYS = [
   {
     id: 'celebrations',
     label: 'Birthdays & Anniversaries',
     description: "Auto-generated from employee data — only shows birthdays and anniversaries on the employee's actual day",
-    path: '/',
+    path: '/index.html',
     icon: Layers,
     color: 'bg-brand-warm-brown',
   },
@@ -16,7 +17,7 @@ const DISPLAYS = [
     id: 'rockstars',
     label: 'Rockstars Only',
     description: 'Monthly rockstar recognition slides from active campaigns',
-    path: '/rockstars',
+    path: '/rockstars.html',
     icon: Trophy,
     color: 'bg-brand-gold',
   },
