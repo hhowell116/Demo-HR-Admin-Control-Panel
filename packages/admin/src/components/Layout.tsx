@@ -56,7 +56,7 @@ export function Layout() {
   );
 
   return (
-    <div className="flex h-screen bg-brand-off-white">
+    <div className="flex h-[calc(100vh-36px)] bg-brand-off-white">
       {/* Mobile overlay */}
       {sidebarOpen && (
         <div
